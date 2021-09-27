@@ -6,44 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tables</title>
     <style>
-        td,table,th{
-            border: 1px dashed red;
-            border-collapse: collapse;
-            -o-table-baseline: initial;
-            align-self: center;
-            
-        }
+      
     </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <th colspan="2"><h1>teams</h1></th>
-            <th>time</th>
-            <th>scores</th>
-        </tr>
-        <tr>
-            <td colspan="2">teams</td>
-            <td>time</td>
-            <td>scores</td>
-        </tr>
-        <tr>
-            <td rowspan="2">teams</td>
-            <td>time</td>
-            <td>scores</td>
-            <td>guns</td>
-        </tr>
-        <tr>
-            <td colspan="4">total</td>
-        </tr>
-    </table>
-    <input type="color" name="" id="">
-    <select name="support" id="">
-      <option value="call">call us</option>  
-      <option value="whatsaap">whatsaap</option>  
-      <option value="message">message</option>
-    </select>
-    <h1>youtube</h1>
-    <iframe src="skills.html" height="400" width="600" frameborder="0"></iframe>
+  <header>
+      <h1>the avengers initiative</h1>
+      <p>there was an idea to bring a group of remarkable peaple together so that they can fight wars that we can never do by our own</p>
+  </header>
+  <h2>registration form</h2>
+  <form action="">
+      <label for="name">name:</label>
+      <input type="text" id="name"><br>
+      <label for="email">email:</label>
+      <input type="text" id="email"><br>
+      <label for="skills"></label>
+      flight:<input type="checkbox" name="flight" id="fl">
+      spy:<input type="checkbox" name="stelth" id="sl">
+      alien:<input type="checkbox" name="alien tech" id="al"><br>
+      <label for="level">level:</label>
+      <select name="level" id="level">
+          <option value="ground level">alpha</option>
+          <option value="intermediate">beta</option>
+          <option value="master">gama</option>
+          <option value="legend">omega</option>
+
+      </select><br>
+      <label for="discription">details:</label><br>
+      <textarea name="detais" id="dis" cols="30" rows="10"></textarea><br>
+      <input type="submit" value="submit">
+
+
+  </form>
 </body>
 </html>
